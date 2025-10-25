@@ -48,7 +48,7 @@ const ChatBot = () => {
     "How many years of experience does Subhadip have?",
   ]);
 
-  const API_URL = import.meta.env.VITE_API_URL ||"https://chatbot-backend-blush-pi.vercel.app/api/chat";
+  const API_URL = import.meta.env.VITE_API_URL || "https://chatbot-backend-blush-pi.vercel.app//api/chat";
 
 
   const toggleChat = () => setIsOpen(!isOpen);
